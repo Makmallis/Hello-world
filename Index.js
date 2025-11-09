@@ -29,11 +29,32 @@ document.getElementById("myP").textcontent = `I like pizza`;
  
 //strings 
 
- let firstName = "Mandy";
- let favouriteFood = "Pepperoni pizza";
- let email = "Mandy123@gmail.com";
- console.log(typeof firstName);
- console.log(`Your name is ${firstName}`);
- console.log(`My brother makes the best ${favouriteFood}, he uses fresh goat cheese`);
- console.log(`Please do reach out to me further on my email ${email}`);
+ //let firstName = "Mandy";
+ //let favouriteFood = "Pepperoni pizza";
+ //let email = "Mandy123@gmail.com";
+ //console.log(typeof firstName);
+ //console.log(`Your name is ${firstName}`);
+ //console.log(`My brother makes the best ${favouriteFood}, he uses fresh goat cheese`);
+ //console.log(`Please do reach out to me further on my email ${email}`);
+
+ //boolean 
+
+ //let online = true;
+// let timeZone = false; 
+ //let isTeacher = false; 
+
+ //console.log(typeof online)
+ //console.log(`Mandy is online: ${online}`);
+ //console.log(`This is the 18th century: ${timeZone}`);
+ //console.log(`She is the new grade 12 teacher: ${isTeacher}`);
+
+//Variables
+
+let  fullName = "Mandy Monroe";
+let age = "21";
+let student = true;
+
+document.getElementById("p1").textContent = `Hi my name is ${fullName}`;
+document.getElementById("p2").textContent = `Today is my birthday and I am ${age}`;
+document.getElementById("p3").textContent = `Enrolled student: ${student}`;
 
