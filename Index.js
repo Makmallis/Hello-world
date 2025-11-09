@@ -50,11 +50,71 @@ document.getElementById("myP").textcontent = `I like pizza`;
 
 //Variables
 
-let  fullName = "Mandy Monroe";
-let age = "21";
-let student = true;
+//let  fullName = "Mandy Monroe";
+//let age = "21";
+//let student = true;
 
-document.getElementById("p1").textContent = `Hi my name is ${fullName}`;
-document.getElementById("p2").textContent = `Today is my birthday and I am ${age}`;
-document.getElementById("p3").textContent = `Enrolled student: ${student}`;
+//document.getElementById("p1").textContent = `Hi my name is ${fullName}`;
+//document.getElementById("p2").textContent = `Today is my birthday and I am ${age}`;
+//document.getElementById("p3").textContent = `Enrolled student: ${student}`;
+
+//arithmetic operators 
+//let students = 30 
+
+//students = students + 1;  //add students
+//students = students - 1;  //subtract student 
+//students = students *2;   //multiply students
+//students = students /2;   //divide students
+//students = students **2;  //square students 
+//students**=2;
+
+//console.log(students);
+
+// how to accept user input 
+
+//1. easy way - window prompt 
+//2. proffesional way - html textbook 
+// let username; 
+
+// username = window.prompt(`Whats your username`);
+
+//console.log(username); 
+
+//let username;
+/*document.getElementById("mySubmit").onclick = function(){
+       username = document.getElementById("myText").value;
+      console.log(username);
+}
+*/
+
+//type conversion = changing srings, booleans and numbers
+
+//let age = window.prompt("How old are you?");
+
+//age = Number(age);    //convert to number
+//age+= 1; 
+//console.log(age); or //alert(age)
+
+//let x = "pizza";
+//let y = "pizza";
+//let z = "pizza";
+
+//x = Number(x);
+//y = String(y);
+//z = Boolean(z);
+
+
+//console.log(x, typeof x);
+//console.log(y, typeof y);
+//console.log(z, typeof z);
+
+ //let value = true;
+ //value = String( value); // now value is a string "true"
+
+//comparison
+//alert('z'>'a'); //true
+//alert('2'> 1); //true
+//alert(null === undefined); //false
+
+
 
