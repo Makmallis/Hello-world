@@ -15,3 +15,20 @@ document.getElementById("myP").textcontent = `I like pizza`;
    a
    comment
 */
+
+//1.Declaration let x;
+//2.Assignment  x= 100;
+
+let x;
+x = 100;
+let age = 19;
+let gpa = 4.3;
+
+console.log(`Congradulations Abigail you have maintained a ${gpa}GPA, we are so proud`);
+console.log(`You are ${age} today, Happy birthday`);
+ //strings 
+ let firstName = "Mandy";
+
+ console.log(typeof firstName);
+ console.log(`Your name is ${firstName}`);
+ 
