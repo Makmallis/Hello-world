@@ -120,20 +120,53 @@
 
 //mock a2 
 //[1] defining variables
- let fullName = `Makha Mntungwa`; //string type
- let age = 21;                    //numbers 
- let student = true;               //boolean
+ //let fullName = `Makha Mntungwa`; //string type
+ //let age = 21;                    //numbers 
+ //let student = true;               //boolean
 
  //[2] five comparisons
-  let x = 5;
-  let y = '5';
-  let z = 10;
-  let a = false;
+ // let x = 5;
+//  let y = '5';
+ // let z = 10;
+  //let a = false;
 
-  alert(z > 4); // true; 10 is larger than 4
-  alert(y === x); //false; 5(number)is not strictly equal to '5' (string) because their different types
-  alert(z != x); //false; 10 is not equal to 5
-  alert(a == 0); //true; false is equal to 0
-  alert(x < 21); //true; 5 is smaller than 25
+  //alert(z > 4); // true; 10 is larger than 4
+ // alert(y === x); //false; 5(number)is not strictly equal to '5' (string) because their different types
+  //alert(z != x); //false; 10 is not equal to 5
+ // alert(a == 0); //true; false is equal to 0
+ // alert(x < 21); //true; 5 is smaller than 25
 
-  //[3]
+  //[3]equation
+  // let answer = 5 * 4; 
+   //console.log(`5*4=${answer}`);
+
+   //[4]convert numb to string
+
+    //let age = 19
+
+    //stringOne = Number(age);
+   // stringTwo = `Yes my son is indeed ${age}`;
+
+    //console.log(age);
+    //console.log(`Hello Mandy, you are ${age} this year right?`);
+
+//[5]Logical operants (AND, OR, NOT).
+ let isRaining = false;
+ let isHot = true;
+ let timeIsAfterNine = true; 
+
+ let complexCondition = !isRaining || ( isHot && timeIsAfterNine);
+
+ //[6]function
+ function isPositive(number) {
+   
+   //functions take parameters
+   //If the number is greater than 0, it is positive(true)
+   //otherwise, it is negative or zero (false)
+   return number > 0; // The comparison operator (>) returns a boolean value  
+}
+
+// Example usage:
+// isPositive(5);  //returns true
+// isPositive(-5); //returns false 
+//  isPositive(0)  //returns false  
