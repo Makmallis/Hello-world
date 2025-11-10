@@ -5,8 +5,8 @@
 //window.alert(`I like pizza`);
 
 
-document.getElementById("myH1").textcontent = `Hello`;
-document.getElementById("myP").textcontent = `I like pizza`;
+//document.getElementById("myH1").textcontent = `Hello`;
+//document.getElementById("myP").textcontent = `I like pizza`;
 //This is a comment 
 
 /*
@@ -118,3 +118,22 @@ document.getElementById("myP").textcontent = `I like pizza`;
 
 
 
+//mock a2 
+//[1] defining variables
+ let fullName = `Makha Mntungwa`; //string type
+ let age = 21;                    //numbers 
+ let student = true;               //boolean
+
+ //[2] five comparisons
+  let x = 5;
+  let y = '5';
+  let z = 10;
+  let a = false;
+
+  alert(z > 4); // true; 10 is larger than 4
+  alert(y === x); //false; 5(number)is not strictly equal to '5' (string) because their different types
+  alert(z != x); //false; 10 is not equal to 5
+  alert(a == 0); //true; false is equal to 0
+  alert(x < 21); //true; 5 is smaller than 25
+
+  //[3]
